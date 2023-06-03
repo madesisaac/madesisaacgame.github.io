@@ -43,7 +43,7 @@ function startGame(restart){
       tile.classList.remove("found")
     }
   })
-  triesLeft=5,pairsFound=0
+  triesLeft=8,pairsFound=0
   updateCounter()
   restartButton.removeEventListener("click",startGame)
   restartButton.classList.remove("visible")
